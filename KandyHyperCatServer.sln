@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "KandyHyperCatServer", "KandyHyperCatServer\KandyHyperCatServer.shproj", "{8FB6B8B0-BCBF-431A-ADE2-134B3467B3E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KandyHyperCatServer.API", "KandyHyperCatServer.API\KandyHyperCatServer.API.csproj", "{70656C2B-B7B8-481F-80DA-83252B3B0CB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KandyHyperCatClient", "KandyHyperCatClient\KandyHyperCatClient.csproj", "{4B1BD3A2-DB0B-4BB3-B304-FDF44B4B3AD7}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		KandyHyperCatServer\KandyHyperCatServer.projitems*{8fb6b8b0-bcbf-431a-ade2-134b3467b3e6}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70656C2B-B7B8-481F-80DA-83252B3B0CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70656C2B-B7B8-481F-80DA-83252B3B0CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70656C2B-B7B8-481F-80DA-83252B3B0CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70656C2B-B7B8-481F-80DA-83252B3B0CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B1BD3A2-DB0B-4BB3-B304-FDF44B4B3AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B1BD3A2-DB0B-4BB3-B304-FDF44B4B3AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B1BD3A2-DB0B-4BB3-B304-FDF44B4B3AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B1BD3A2-DB0B-4BB3-B304-FDF44B4B3AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
